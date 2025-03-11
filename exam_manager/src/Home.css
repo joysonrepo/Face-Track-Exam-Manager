@@ -1,0 +1,89 @@
+/* Home.css */
+.taskbar {
+  
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Home.css */
+
+body {
+  background-image: url("i.jpg");
+  background-size: cover;
+  margin: 10px; 
+  /* Reset default margin to ensure background covers entire viewport */
+}
+
+.taskbar {
+  padding: 10px;
+  background-color: rgba(238, 16, 16, 0.5); /* Optional: Add a semi-transparent background color */
+  color: rgb(29, 28, 28);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskbar nav ul li {
+  margin-right: 10px;
+}
+
+.taskbar .logout-link {
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+}
+
+.taskbar a {
+  padding: 10px 20px;
+  margin: 0 5px;
+  color: rgb(22, 21, 21);
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.taskbar a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.taskbar .logout-link {
+  padding: 10px 20px;
+  margin: 0 5px;
+  color: rgb(27, 26, 26);
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.taskbar .logout-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.taskbar {
+    background-color: #333;
+    padding: 10px 0; /* Adjust as needed */
+  }
+  
+  .taskbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .taskbar nav ul li {
+    display: inline;
+  }
+  
+  .taskbar nav ul li a {
+    color: rgb(247, 239, 239);
+    text-decoration: none;
+    padding: 10px 20px; /* Adjust as needed */
+  }
+  
+  .taskbar nav ul li a:hover {
+    background-color: #f0efef; /* Change color on hover */
+  }
+  
