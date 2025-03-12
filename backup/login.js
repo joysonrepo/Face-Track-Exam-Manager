@@ -1,4 +1,4 @@
-// Backend (Node.js/Express.js)
+Backend (Node.js/Express.js)
 
 const express = require('express');
 const mysql = require('mysql');
